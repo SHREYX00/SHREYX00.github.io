@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO & Social Meta Tags -->
+  <title>Shreyash Kshirsagar | Aspiring Cloud Engineer</title>
+  <meta name="description"
+    content="Minimalist portfolio of Shreyash Kshirsagar — MCA student & aspiring Cloud Engineer focused on AWS, Linux, Docker, and DevOps.">
+  <meta name="keywords" content="Shreyash Kshirsagar, Cloud Engineer, Cloud Operations, AWS, Azure, Linux, Docker, MCA">
+  <meta name="author" content="Shreyash Kshirsagar">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shreyash Kshirsagar | Aspiring Cloud Engineer">
+  <meta property="og:description"
+    content="MCA student seeking entry-level Cloud Support, Operations, and Engineering roles.">
+  <meta property="og:image" content="assets/favicon.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ========================================================================
+       MINIMALIST NAVBAR
+       ======================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="#home" class="nav-brand" aria-label="Shreyash Kshirsagar Home">
+        <span class="brand-dot"></span>
+        <span>Shreyash K.</span>
+        <span class="brand-tag">Cloud</span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-right">
+        <!-- Resume Download CTA -->
+        <a href="assets/resume.pdf" class="btn btn-sm btn-primary" download="Shreyash_Kshirsagar_Resume.pdf">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+         1. HERO SECTION (WITH INTERACTIVE 3D CLOUD MESH)
+         ====================================================================== -->
+    <section class="section hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <div class="hero-pill">
+            <span class="status-pulse"></span>
+            <span>MCA Student • Seeking Entry-Level Cloud Roles</span>
+          </div>
+
+          <h1 class="hero-name">Shreyash Kshirsagar</h1>
+
+          <div class="hero-role">
+            <span>Aspiring Cloud Engineer</span>
+            <span class="hero-tagline">// Cloud Infrastructure &amp; DevOps</span>
+          </div>
+
+          <p class="hero-bio">
+            Master of Computer Applications student passionate about <strong>AWS, Linux systems, Docker containers, and
+              CI/CD pipelines</strong>. Building practical hands-on experience and eager to support and scale reliable
+            cloud infrastructure.
+          </p>
+
+          <!-- Buttons -->
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              View Projects
+            </a>
+
+            <a href="assets/resume.pdf" class="btn btn-secondary" download="Shreyash_Kshirsagar_Resume.pdf">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download Resume
+            </a>
+
+            <div class="hero-socials">
+              <!-- EDIT: Replace with your actual GitHub URL -->
+              <a href="https://github.com/SHREYX00" target="_blank" rel="noopener noreferrer"
+                class="btn-icon" aria-label="GitHub Profile" title="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                  </path>
+                </svg>
+              </a>
+
+              <!-- EDIT: Replace with your actual LinkedIn URL -->
+              <a href="https://www.linkedin.com/in/shreyash-kshirsagar-292452295" target="_blank" rel="noopener noreferrer"
+                class="btn-icon" aria-label="LinkedIn Profile" title="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+
+              <!-- Naukri.com Profile -->
+              <a href="https://www.naukri.com/mnjuser/profile?id=&amp;altresid" target="_blank" rel="noopener noreferrer"
+                class="btn-icon" aria-label="Naukri.com Profile" title="Naukri.com">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 7V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v3"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-label">Education</span>
+              <span class="stat-val">MCA Student</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Core Focus</span>
+              <span class="stat-val">AWS &bull; Linux &bull; Docker</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Target Roles</span>
+              <span class="stat-val">Cloud Support / Ops / Jr. Cloud Eng</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3D Interactive WebGL Container -->
+        <div class="hero-right">
+          <div class="hero-3d-wrapper" id="canvasWrapper"
+            title="Interactive 3D Cloud Network: Click and drag to rotate">
+            <div class="canvas-hud" id="cloudNodeHud">
+              [DRAG TO ROTATE 3D NETWORK MESH]
+            </div>
+            <div id="webgl-container"></div>
+            <div class="canvas-footer-tip">3D Node Topology &bull; Three.js</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         2. ABOUT ME SECTION
+         ====================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-eyebrow">// 01. About Me</div>
+          <h2 class="section-title">Background &amp; Focus</h2>
+          <p class="section-sub">A concise overview of my academic background and dedication to cloud technologies.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-summary">
+            <p>
+              I am currently pursuing my <strong>Master of Computer Applications (MCA)</strong>. Throughout my studies,
+              I discovered a strong interest in how distributed cloud infrastructure powers modern digital services.
+            </p>
+            <p>
+              My focus is on understanding the core layers: <strong>cloud architecture (AWS/Azure), Linux system
+                administration, networking fundamentals (TCP/IP, DNS, VPC), containerization with Docker, and CI/CD
+                pipelines</strong>.
+            </p>
+            <p>
+              As an entry-level candidate, I prioritize continuous hands-on learning through cloud labs, troubleshooting
+              configurations, and practicing real-world deployments. I am eager to start my career in Cloud Support,
+              Cloud Operations, or Cloud Engineering.
+            </p>
+          </div>
+
+          <div class="about-features">
+            <div class="feature-chip" data-tilt-3d>
+              <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="feature-title">Cloud Infrastructure</div>
+                <div class="feature-desc">Provisioning compute, storage, VPC networks, and IAM policies in AWS &amp;
+                  Azure.</div>
+              </div>
+            </div>
+
+            <div class="feature-chip" data-tilt-3d>
+              <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="4 17 10 11 4 5"></polyline>
+                  <line x1="12" y1="19" x2="20" y2="19"></line>
+                </svg>
+              </div>
+              <div>
+                <div class="feature-title">Linux Administration</div>
+                <div class="feature-desc">Command-line proficiency, file permissions, shell scripting, and service
+                  management.</div>
+              </div>
+            </div>
+
+            <div class="feature-chip" data-tilt-3d>
+              <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path
+                    d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+                <div class="feature-title">Containers &amp; DevOps</div>
+                <div class="feature-desc">Docker containerization, Git version control, and basic CI/CD pipeline
+                  automation.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. TECHNICAL SKILLS SECTION
+         ====================================================================== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-eyebrow">// 02. Technical Toolkit</div>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-sub">Technologies I actively learn, practice, and build with through coursework and hands-on
+            labs.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Cloud -->
+          <div class="skill-card" data-tilt-3d>
+            <div class="skill-card-top">
+              <div class="skill-group-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                </svg>
+                <span>Cloud</span>
+              </div>
+              <span class="skill-group-badge">Active Focus</span>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">Microsoft Azure</span>
+            </div>
+          </div>
+
+          <!-- DevOps -->
+          <div class="skill-card" data-tilt-3d>
+            <div class="skill-card-top">
+              <div class="skill-group-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <path
+                    d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                  </path>
+                </svg>
+                <span>DevOps</span>
+              </div>
+              <span class="skill-group-badge">CI/CD</span>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">CI/CD</span>
+            </div>
+          </div>
+
+          <!-- Operating Systems -->
+          <div class="skill-card" data-tilt-3d>
+            <div class="skill-card-top">
+              <div class="skill-group-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+                <span>Operating Systems</span>
+              </div>
+              <span class="skill-group-badge">Systems</span>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Linux</span>
+              <span class="skill-tag">Windows</span>
+            </div>
+          </div>
+
+          <!-- Programming -->
+          <div class="skill-card" data-tilt-3d>
+            <div class="skill-card-top">
+              <div class="skill-group-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+                <span>Programming</span>
+              </div>
+              <span class="skill-group-badge">Scripting</span>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+            </div>
+          </div>
+
+          <!-- Database -->
+          <div class="skill-card" data-tilt-3d>
+            <div class="skill-card-top">
+              <div class="skill-group-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+                <span>Database</span>
+              </div>
+              <span class="skill-group-badge">Relational</span>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">SQLite</span>
+            </div>
+          </div>
+
+          <!-- Other / Fundamentals -->
+          <div class="skill-card" data-tilt-3d>
+            <div class="skill-card-top">
+              <div class="skill-group-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                  </path>
+                </svg>
+                <span>Other</span>
+              </div>
+              <span class="skill-group-badge">Foundations</span>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Networking</span>
+              <span class="skill-tag">Cloud fundamentals</span>
+              <span class="skill-tag">Troubleshooting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         4. PROJECTS SECTION
+         ====================================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-eyebrow">// 03. Projects</div>
+          <h2 class="section-title">Featured Work</h2>
+          <p class="section-sub">Hands-on cloud implementations, containerization setups, and deployment labs.</p>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="projects-filter-bar">
+          <div class="filter-group">
+            <button class="filter-btn active" data-filter="all">All (4)</button>
+            <button class="filter-btn" data-filter="cloud">Cloud</button>
+            <button class="filter-btn" data-filter="devops">DevOps</button>
+            <button class="filter-btn" data-filter="systems">Systems</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- PROJECT 1: AWS Cloud Project -->
+          <div class="project-card" data-category="cloud" data-tilt-3d>
+            <div class="project-top">
+              <span class="project-badge">AWS</span>
+            </div>
+            <h3 class="project-title">AWS Cloud Project</h3>
+            <p class="project-desc">
+              Configured a secure cloud hosting environment using AWS S3, CloudFront CDN, and Route 53 with IAM
+              least-privilege security policies.
+            </p>
+            <div class="project-tech">
+              <span>AWS S3</span>
+              <span>CloudFront</span>
+              <span>IAM</span>
+              <span>Route 53</span>
+            </div>
+            <div class="project-links">
+              <!-- EDIT: Replace with your GitHub link -->
+              <a href="https://github.com/SHREYX00" target="_blank" rel="noopener noreferrer"
+                class="btn btn-sm btn-secondary">
+                GitHub
+              </a>
+              <!-- EDIT: Replace with live demo or spec link -->
+              <a href="#projects" class="btn btn-sm btn-outline">
+                Demo
+              </a>
+            </div>
+          </div>
+
+          <!-- PROJECT 2: Dockerized Web Application -->
+          <div class="project-card" data-category="devops" data-tilt-3d>
+            <div class="project-top">
+              <span class="project-badge">Docker</span>
+            </div>
+            <h3 class="project-title">Dockerized Web Application</h3>
+            <p class="project-desc">
+              Containerized a multi-tier application with isolated frontend, backend API, and persistent MySQL database
+              using Docker Compose.
+            </p>
+            <div class="project-tech">
+              <span>Docker</span>
+              <span>Docker Compose</span>
+              <span>Linux</span>
+              <span>MySQL</span>
+            </div>
+            <div class="project-links">
+              <!-- EDIT: Replace with your GitHub link -->
+              <a href="https://github.com/SHREYX00" target="_blank" rel="noopener noreferrer"
+                class="btn btn-sm btn-secondary">
+                GitHub
+              </a>
+              <!-- EDIT: Replace with live demo or spec link -->
+              <a href="#projects" class="btn btn-sm btn-outline">
+                Demo
+              </a>
+            </div>
+          </div>
+
+          <!-- PROJECT 3: Cloud Monitoring and Troubleshooting -->
+          <div class="project-card" data-category="systems" data-tilt-3d>
+            <div class="project-top">
+              <span class="project-badge">Monitoring</span>
+            </div>
+            <h3 class="project-title">Cloud Monitoring and Troubleshooting</h3>
+            <p class="project-desc">
+              Implemented system resource monitoring and alerting using CloudWatch and Linux shell automation for
+              proactive incident triage.
+            </p>
+            <div class="project-tech">
+              <span>CloudWatch</span>
+              <span>Linux Bash</span>
+              <span>Syslog</span>
+              <span>Alerting</span>
+            </div>
+            <div class="project-links">
+              <!-- EDIT: Replace with your GitHub link -->
+              <a href="https://github.com/SHREYX00" target="_blank" rel="noopener noreferrer"
+                class="btn btn-sm btn-secondary">
+                GitHub
+              </a>
+              <!-- EDIT: Replace with live demo or spec link -->
+              <a href="#projects" class="btn btn-sm btn-outline">
+                Demo
+              </a>
+            </div>
+          </div>
+
+          <!-- PROJECT 4: CI/CD Deployment Pipeline -->
+          <div class="project-card" data-category="devops" data-tilt-3d>
+            <div class="project-top">
+              <span class="project-badge">CI/CD</span>
+            </div>
+            <h3 class="project-title">CI/CD Deployment Pipeline</h3>
+            <p class="project-desc">
+              Built an automated deployment workflow using GitHub Actions to run automated testing, container build, and
+              cloud release.
+            </p>
+            <div class="project-tech">
+              <span>GitHub Actions</span>
+              <span>Docker</span>
+              <span>YAML</span>
+              <span>Git</span>
+            </div>
+            <div class="project-links">
+              <!-- EDIT: Replace with your GitHub link -->
+              <a href="https://github.com/SHREYX00" target="_blank" rel="noopener noreferrer"
+                class="btn btn-sm btn-secondary">
+                GitHub
+              </a>
+              <!-- EDIT: Replace with live demo or spec link -->
+              <a href="#projects" class="btn btn-sm btn-outline">
+                Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         5. EDUCATION SECTION
+         ====================================================================== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-eyebrow">// 04. Education</div>
+          <h2 class="section-title">Academic Background</h2>
+          <p class="section-sub">Formal computer science education and fundamental coursework.</p>
+        </div>
+
+        <div class="edu-grid">
+          <!-- MCA -->
+          <div class="edu-card" data-tilt-3d>
+            <div class="edu-head">
+              <h3 class="edu-degree">Master of Computer Applications (MCA)</h3>
+              <span class="edu-status">Pursuing</span>
+            </div>
+            <div class="edu-school">Affiliated University / College</div>
+            <p class="edu-desc">
+              Focus on cloud architecture, distributed systems, operating systems, and network security.
+            </p>
+            <div class="edu-tags">
+              <span class="edu-tag">Cloud Computing</span>
+              <span class="edu-tag">Operating Systems</span>
+              <span class="edu-tag">Networks</span>
+              <span class="edu-tag">DBMS</span>
+            </div>
+          </div>
+
+          <!-- BCA -->
+          <div class="edu-card" data-tilt-3d>
+            <div class="edu-head">
+              <h3 class="edu-degree">Bachelor of Computer Applications (BCA)</h3>
+              <span class="edu-status">Graduated</span>
+            </div>
+            <div class="edu-school">Affiliated University / College</div>
+            <p class="edu-desc">
+              Core foundation in computer applications, programming paradigms, and relational database systems.
+            </p>
+            <div class="edu-tags">
+              <span class="edu-tag">Data Structures</span>
+              <span class="edu-tag">Java/C++</span>
+              <span class="edu-tag">SQL</span>
+              <span class="edu-tag">Web Tech</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         6. CERTIFICATIONS SECTION
+         ====================================================================== -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-eyebrow">// 05. Certifications</div>
+          <h2 class="section-title">Certifications &amp; Path</h2>
+          <p class="section-sub">Active technical preparation path without inflated credentials.</p>
+        </div>
+
+        <div class="cert-grid">
+          <div class="cert-card" data-tilt-3d>
+            <span class="cert-status-badge">Target / In Preparation</span>
+            <h3 class="cert-card-title">AWS Certified Cloud Practitioner</h3>
+            <div class="cert-card-issuer">Amazon Web Services</div>
+            <p class="cert-card-text">
+              Active preparation covering core AWS infrastructure, IAM security, VPC networking, and pricing models.
+            </p>
+          </div>
+
+          <div class="cert-card" data-tilt-3d>
+            <span class="cert-status-badge"
+              style="color: var(--azure-blue); background: rgba(96, 165, 250, 0.1);">Self-Paced Practice</span>
+            <h3 class="cert-card-title">Linux Systems &amp; Bash Labs</h3>
+            <div class="cert-card-issuer">Practical Lab Training</div>
+            <p class="cert-card-text">
+              Ongoing exercises in command-line administration, systemd service units, and network diagnostics.
+            </p>
+          </div>
+
+          <div class="cert-card cert-card-empty" data-tilt-3d>
+            <h3 class="cert-card-title" style="color: var(--text-dim);">Future Certification Slot</h3>
+            <p class="cert-card-text" style="color: var(--text-dim); margin-top: 4px;">
+              Ready to update with earned certifications (e.g. AWS Solutions Architect, Azure AZ-900).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         7. RESUME SECTION
+         ====================================================================== -->
+    <section class="section" id="resume">
+      <div class="container">
+        <div class="resume-banner" data-tilt-3d>
+          <div>
+            <div class="section-eyebrow" style="margin-bottom: 4px;">// Resume</div>
+            <h2 class="resume-title">Download Curriculum Vitae</h2>
+            <p class="resume-sub">PDF format covering education, cloud labs, technical skills, and contact details.</p>
+          </div>
+          <div class="resume-btns">
+            <!-- EDIT: Place your actual resume at assets/resume.pdf -->
+            <a href="assets/resume.pdf" class="btn btn-primary" download="Shreyash_Kshirsagar_Resume.pdf">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Download Resume
+            </a>
+            <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              View Online
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         8. CONTACT SECTION
+         ====================================================================== -->
+    <section class="section" id="contact" style="border-bottom: none;">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-eyebrow">// 06. Contact</div>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-sub">Actively seeking entry-level Cloud Support, Operations, and Engineering positions.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-cards">
+            <!-- Email -->
+            <div class="contact-card" data-tilt-3d>
+              <div class="contact-left">
+                <div class="contact-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-meta">
+                  <span class="contact-lbl">Email</span>
+                  <!-- EDIT: Replace with your actual email address -->
+                  <span class="contact-val">kshirsagarshreyas89@gmail.com</span>
+                </div>
+              </div>
+              <button class="btn btn-sm btn-outline" data-copy="kshirsagarshreyas89@gmail.com">Copy</button>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-card" data-tilt-3d>
+              <div class="contact-left">
+                <div class="contact-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="contact-meta">
+                  <span class="contact-lbl">LinkedIn</span>
+                  <!-- EDIT: Replace with your LinkedIn URL -->
+                  <span class="contact-val">linkedin.com/in/shreyash-kshirsagar-292452295</span>
+                </div>
+              </div>
+              <a href="https://www.linkedin.com/in/shreyash-kshirsagar-292452295" target="_blank" rel="noopener noreferrer"
+                class="btn btn-sm btn-outline">Visit</a>
+            </div>
+
+            <!-- GitHub -->
+            <div class="contact-card" data-tilt-3d>
+              <div class="contact-left">
+                <div class="contact-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                    </path>
+                  </svg>
+                </div>
+                <div class="contact-meta">
+                  <span class="contact-lbl">GitHub</span>
+                  <!-- EDIT: Replace with your GitHub URL -->
+                  <span class="contact-val">github.com/SHREYX00</span>
+                </div>
+              </div>
+              <a href="https://github.com/SHREYX00" target="_blank" rel="noopener noreferrer"
+                class="btn btn-sm btn-outline">Visit</a>
+            </div>
+
+            <!-- Naukri.com -->
+            <div class="contact-card" data-tilt-3d>
+              <div class="contact-left">
+                <div class="contact-icon" title="Naukri.com">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                    <path d="M16 7V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v3"></path>
+                  </svg>
+                </div>
+                <div class="contact-meta">
+                  <span class="contact-lbl">Naukri.com</span>
+                  <!-- EDIT: Replace with your public Naukri URL if needed -->
+                  <span class="contact-val">naukri.com/profile</span>
+                </div>
+              </div>
+              <a href="https://www.naukri.com/mnjuser/profile?id=&amp;altresid" target="_blank" rel="noopener noreferrer"
+                class="btn btn-sm btn-outline">Visit</a>
+            </div>
+          </div>
+
+          <!-- Direct Message Form -->
+          <div class="contact-form-box" data-tilt-3d>
+            <form id="contactForm">
+              <div class="form-row">
+                <label for="senderName" class="form-label">Name *</label>
+                <input type="text" id="senderName" class="form-field" placeholder="Recruiter / Hiring Manager" required>
+              </div>
+              <div class="form-row">
+                <label for="senderEmail" class="form-label">Email *</label>
+                <input type="email" id="senderEmail" class="form-field" placeholder="recruiter@company.com" required>
+              </div>
+              <div class="form-row">
+                <label for="messageText" class="form-label">Message *</label>
+                <textarea id="messageText" class="form-field"
+                  placeholder="Hello Shreyash, we have an entry-level cloud opportunity..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>&copy; 2026 Shreyash Kshirsagar &bull; Aspiring Cloud Engineer</div>
+      <div>Designed with clean HTML, CSS, JavaScript &amp; Three.js</div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Box -->
+  <div class="toast-box" id="toast">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toastMessage">Copied to clipboard</span>
+  </div>
+
+  <!-- Scripts: Three.js locally + 3D Scene + Client Navigation -->
+  <script src="js/three.min.js"></script>
+  <script src="js/scene3d.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
